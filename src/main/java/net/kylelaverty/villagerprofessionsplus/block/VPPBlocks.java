@@ -20,6 +20,9 @@ public class VPPBlocks {
     public static final Block NETHEROGRAPHY_TABLE_BLOCK = registerBlock("netherography_table_block",
             new Block(FabricBlockSettings.copyOf(Blocks.CARTOGRAPHY_TABLE).sounds(BlockSoundGroup.GILDED_BLACKSTONE)));
 
+    public static final Block GEMSTONE_CUTTING_TABLE_BLOCK = registerBlock("gemstone_cutting_table_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONECUTTER).sounds(BlockSoundGroup.STONE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(VPPReference.MOD_ID, name), block);
@@ -32,6 +35,7 @@ public class VPPBlocks {
 
     private static void addBlocksToItemGroup(FabricItemGroupEntries entries) {
         entries.add(NETHEROGRAPHY_TABLE_BLOCK);
+        entries.add(GEMSTONE_CUTTING_TABLE_BLOCK);
     }
 
     public static void registerModBlocks() {

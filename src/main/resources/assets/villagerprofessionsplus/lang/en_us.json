@@ -1,7 +1,9 @@
 {
   "block.villagerprofessionsplus.netherography_table_block": "Netherography Table",
+  "block.villagerprofessionsplus.gemstone_cutting_table_block": "Gemstone Cutting Table",
 
   "entity.minecraft.villager.netherographer": "Netherographer",
+  "entity.minecraft.villager.gemologist": "Gemologist",
 
   "itemgroup.ruby": "Ruby Tutorial Group"
 }

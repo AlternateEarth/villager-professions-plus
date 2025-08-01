@@ -76,6 +76,10 @@ public class VPPJobs {
         );
     }
 
+    private static void registerGemologistJobs(){
+
+    }
+
     private static final class TradeLevel {
         public static final int NOVICE = 1;
         public static final int APPRENTICE = 2;
@@ -144,5 +148,6 @@ public class VPPJobs {
         VillagerProfessionsPlusMod.LOGGER.info("Registering Jobs for " + VPPReference.MOD_ID);
 
         registerNetherographerJobs();
+        registerGemologistJobs();
     }
 }

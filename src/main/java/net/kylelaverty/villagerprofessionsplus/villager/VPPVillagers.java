@@ -21,8 +21,12 @@ public class VPPVillagers {
     public static final String NETHEROGRAPHER_POI_ID = "netherographerpoi";
     public static final RegistryKey<PointOfInterestType> NETHEROGRAPHER_POI_KEY = poiKey(NETHEROGRAPHER_POI_ID);
     public static final PointOfInterestType NETHEROGRAPHER_POI = registerPoi(NETHEROGRAPHER_POI_ID, VPPBlocks.NETHEROGRAPHY_TABLE_BLOCK);
-
     public static final VillagerProfession NETHEROGRAPHER = registerProfession("netherographer", NETHEROGRAPHER_POI_KEY, SoundEvents.ENTITY_VILLAGER_WORK_CARTOGRAPHER);
+
+    public static final String GEMOLOGIST_POI_ID = "gemologistpoi";
+    public static final RegistryKey<PointOfInterestType> GEMOLOGIST_POI_KEY = poiKey(GEMOLOGIST_POI_ID);
+    public static final PointOfInterestType GEMOLOGIST_POI = registerPoi(GEMOLOGIST_POI_ID, VPPBlocks.GEMSTONE_CUTTING_TABLE_BLOCK);
+    public static final VillagerProfession GEMOLOGIST = registerProfession("gemologist", GEMOLOGIST_POI_KEY, SoundEvents.ENTITY_VILLAGER_WORK_TOOLSMITH);
 
     private static VillagerProfession registerProfession(String name, RegistryKey<PointOfInterestType> type, SoundEvent professionSound) {
         return Registry.register(Registries.VILLAGER_PROFESSION, new Identifier(VPPReference.MOD_ID, name),
