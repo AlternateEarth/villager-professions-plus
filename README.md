@@ -19,7 +19,7 @@ The goal of this mod is to add more professions to the game.
 
 The Netherographer is a profession that specializes in the study of the Nether. They journey into the nether so will be interested in buying a lot of supplies. They are able to trade for items that are useful in the Nether and sell items that they find in the Nether.
 
-### Coppersmtih
+### Coppersmith
 
 The Coppersmith is a profession that works with copper in all it's forms. The travel through mines and dive deep into caverns and so will be interested in buying supplies and selling their finds.
 
