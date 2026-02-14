@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "villagerprofessionsplus:netherography_table_block", 
+    "villagerprofessionsplus:netherography_table_block",
     "villagerprofessionsplus:coppersmith_table_block"
   ]
 }
