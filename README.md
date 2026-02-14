@@ -72,11 +72,11 @@ Anything listed as buy means that the villager will buy that item from the playe
 | Coppersmith    | Journeyman | Buy  | Cake                        | 1      | 1 Emerald  |
 | Coppersmith    | Journeyman | Buy  | Diamond Pickaxe             | 1      | 10 Emerald |
 | Coppersmith    | Expert     | Sell | Waxed Copper Block          | 1      | 3 Emerald  |
-| Coppersmith    | Expert     | Sell | Weatherd Copper Block       | 1      | 3 Emerald  |
+| Coppersmith    | Expert     | Sell | Weathered Copper Block      | 1      | 3 Emerald  |
 | Coppersmith    | Expert     | Sell | Oxidized Copper Block       | 1      | 3 Emerald  |
 | Coppersmith    | Expert     | Sell | Exposed Copper Block        | 1      | 3 Emerald  |
 | Coppersmith    | Expert     | Buy  | Cookie                      | 6      | 1 Emerald  |
-| Coppersmith    | Master     | Sell | Waxed Weatherd Copper Block | 1      | 4 Emerald  |
+| Coppersmith    | Master     | Sell | Waxed Weathered Copper Block| 1      | 4 Emerald  |
 | Coppersmith    | Master     | Sell | Waxed Oxidized Copper Block | 1      | 4 Emerald  |
 | Coppersmith    | Master     | Sell | Waxed Exposed Copper Block  | 1      | 4 Emerald  |
 
