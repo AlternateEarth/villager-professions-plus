@@ -67,7 +67,7 @@ Anything listed as buy means that the villager will buy that item from the playe
 | Coppersmith    | Apprentice | Buy  | Lantern                     | 1      | 1 Emerald  |
 | Coppersmith    | Apprentice | Buy  | Honeycomb                   | 3      | 1 Emerald  |
 | Coppersmith    | Journeyman | Sell | Copper Block                | 1      | 2 Emerald  |
-| Coppersmith    | Journeyman | Sell | Copper Ore                  | 1      | 3 Emerald  |
+| Coppersmith    | Journeyman | Sell | Copper Ore                  | 1      | 2 Emerald  |
 | Coppersmith    | Journeyman | Sell | Deepslate Copper Ore        | 1      | 4 Emerald  |
 | Coppersmith    | Journeyman | Buy  | Cake                        | 1      | 1 Emerald  |
 | Coppersmith    | Journeyman | Buy  | Diamond Pickaxe             | 1      | 10 Emerald |
