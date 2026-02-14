@@ -19,10 +19,14 @@ import net.minecraft.world.poi.PointOfInterestType;
 public class VPPVillagers {
 
     public static final String NETHEROGRAPHER_POI_ID = "netherographerpoi";
+    public static final String COPPERSMITH_POI_ID = "coppersmithpoi";
     public static final RegistryKey<PointOfInterestType> NETHEROGRAPHER_POI_KEY = poiKey(NETHEROGRAPHER_POI_ID);
+    public static final RegistryKey<PointOfInterestType> COPPERSMITH_POI_KEY = poiKey(COPPERSMITH_POI_ID);
     public static final PointOfInterestType NETHEROGRAPHER_POI = registerPoi(NETHEROGRAPHER_POI_ID, VPPBlocks.NETHEROGRAPHY_TABLE_BLOCK);
+    public static final PointOfInterestType COPPERSMITH_POI = registerPoi(COPPERSMITH_POI_ID, VPPBlocks.COPPERSMITH_TABLE_BLOCK);
 
     public static final VillagerProfession NETHEROGRAPHER = registerProfession("netherographer", NETHEROGRAPHER_POI_KEY, SoundEvents.ENTITY_VILLAGER_WORK_CARTOGRAPHER);
+    public static final VillagerProfession COPPERSMITH = registerProfession("coppersmith", COPPERSMITH_POI_KEY, SoundEvents.ENTITY_VILLAGER_WORK_ARMORER);
 
     private static VillagerProfession registerProfession(String name, RegistryKey<PointOfInterestType> type, SoundEvent professionSound) {
         return Registry.register(Registries.VILLAGER_PROFESSION, new Identifier(VPPReference.MOD_ID, name),

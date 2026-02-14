@@ -36,7 +36,7 @@ public class VPPJobs {
                     factories.add(new EmeraldToItemOffer(new ItemStack(Items.NETHER_WART, 4), 1, 16, 5, 0.2f));
                     factories.add(new EmeraldToItemOffer(new ItemStack(Items.TWISTING_VINES, 4), 1, 16, 5, 0.2f));
                     factories.add(new EmeraldToItemOffer(new ItemStack(Items.WEEPING_VINES, 4), 1, 16, 5, 0.2f));
-                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.LADDER, 10), 1, 16, 5, 0.02f));
+                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.LADDER, 8), 1, 16, 5, 0.02f));
                     factories.add(new ItemToEmeraldOffer(new ItemStack(Items.SOUL_LANTERN, 4), 5, 16, 5, 0.02f));
                 }
         );
@@ -72,6 +72,67 @@ public class VPPJobs {
                 factories -> {
                     factories.add(new EmeraldToItemOffer(new ItemStack(Items.RESPAWN_ANCHOR, 1), 32, 2, 30, 0.02f));
                     factories.add(new EmeraldToItemOffer(new ItemStack(Items.GILDED_BLACKSTONE, 1), 16, 12, 20, 0.02f));
+                }
+        );
+    }
+
+    private static void registerCoppersmithJobs(){
+        TradeOfferHelper.registerVillagerOffers(
+                VPPVillagers.COPPERSMITH,
+                TradeLevel.NOVICE,
+                factories -> {
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.RAW_COPPER, 6), 1, 12, 1, 0.2f));
+                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.STONE_PICKAXE, 1), 1, 12, 1, 0.02f));
+                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.IRON_PICKAXE, 1), 2, 12, 1, 0.02f));
+                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.CARROT, 5), 1, 12, 1, 0.02f));
+                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.BREAD, 1), 1, 12, 1, 0.02f));
+                }
+        );
+
+        TradeOfferHelper.registerVillagerOffers(
+                VPPVillagers.COPPERSMITH,
+                TradeLevel.APPRENTICE,
+                factories -> {
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.COPPER_INGOT, 3), 1, 16, 5, 0.2f));
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.RAW_COPPER_BLOCK, 1), 2, 16, 5, 0.2f));
+                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.LADDER, 8), 1, 16, 5, 0.02f));
+                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.LANTERN, 1), 1, 16, 5, 0.02f));
+                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.HONEYCOMB, 3), 1, 16, 5, 0.02f));
+                }
+        );
+
+        TradeOfferHelper.registerVillagerOffers(
+                VPPVillagers.COPPERSMITH,
+                TradeLevel.JOURNEYMAN,
+                factories -> {
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.COPPER_BLOCK, 1), 2, 12, 10, 0.2f));
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.COPPER_ORE, 1), 2, 12, 10, 0.2f));
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.DEEPSLATE_COPPER_ORE, 1), 4, 12, 10, 0.2f));
+                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.CAKE, 1), 1, 12, 10, 0.02f));
+                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.DIAMOND_PICKAXE, 1), 10, 12, 10, 0.02f));
+
+                }
+        );
+
+        TradeOfferHelper.registerVillagerOffers(
+                VPPVillagers.COPPERSMITH,
+                TradeLevel.EXPERT,
+                factories -> {
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.WAXED_COPPER_BLOCK, 1), 3, 12, 15, 0.2f));
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.WEATHERED_COPPER, 1), 3, 12, 15, 0.2f));
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.OXIDIZED_COPPER, 1), 3, 12, 15, 0.2f));
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.EXPOSED_COPPER, 1), 3, 12, 15, 0.2f));
+                    factories.add(new ItemToEmeraldOffer(new ItemStack(Items.COOKIE, 6), 1, 12, 15, 0.02f));
+                }
+        );
+
+        TradeOfferHelper.registerVillagerOffers(
+                VPPVillagers.COPPERSMITH,
+                TradeLevel.MASTER,
+                factories -> {
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.WAXED_WEATHERED_COPPER, 1), 4, 2, 30, 0.02f));
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.WAXED_OXIDIZED_COPPER, 1), 4, 2, 30, 0.02f));
+                    factories.add(new EmeraldToItemOffer(new ItemStack(Items.WAXED_EXPOSED_COPPER, 1), 4, 2, 30, 0.02f));
                 }
         );
     }
@@ -144,5 +205,6 @@ public class VPPJobs {
         VillagerProfessionsPlusMod.LOGGER.info("Registering Jobs for " + VPPReference.MOD_ID);
 
         registerNetherographerJobs();
+        registerCoppersmithJobs();
     }
 }
