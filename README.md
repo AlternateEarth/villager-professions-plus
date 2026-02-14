@@ -21,7 +21,7 @@ The Netherographer is a profession that specializes in the study of the Nether. 
 
 ### Coppersmith
 
-The Coppersmith is a profession that works with copper in all it's forms. The travel through mines and dive deep into caverns and so will be interested in buying supplies and selling their finds.
+The Coppersmith is a profession that works with copper in all it's forms. They travel through mines and dive deep into caverns and so will be interested in buying supplies and selling their finds.
 
 ## Trades
 
