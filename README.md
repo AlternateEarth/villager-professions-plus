@@ -11,7 +11,7 @@ The goal of this mod is to add more professions to the game.
 | Netherographer Trades | Complete |
 | Coppersmith           | Complete |
 | Coppersmith Table     | Complete |
-| Coppersmtih Trades    | Complete |
+| Coppersmith Trades    | Complete |
 
 ## Professions
 
@@ -21,7 +21,7 @@ The Netherographer is a profession that specializes in the study of the Nether. 
 
 ### Coppersmith
 
-The Coppersmith is a profession that works with copper in all it's forms. They travel through mines and dive deep into caverns and so will be interested in buying supplies and selling their finds.
+The Coppersmith is a profession that works with copper in all its forms. They travel through mines and dive deep into caverns and so will be interested in buying supplies and selling their finds.
 
 ## Trades
 
@@ -37,7 +37,7 @@ Anything listed as buy means that the villager will buy that item from the playe
 | Netherographer | Novice     | Buy  | Iron Shovel                 | 1      | 2 Emerald  |
 | Netherographer | Novice     | Sell | Warped Fungus               | 4      | 1 Emerald  |
 | Netherographer | Novice     | Sell | Crimson Fungus              | 4      | 1 Emerald  |
-| Netherographer | Apprentice | Buy  | Ladder                      | 10     | 1 Emerald  |
+| Netherographer | Apprentice | Buy  | Ladder                      | 8      | 1 Emerald  |
 | Netherographer | Apprentice | Buy  | Soul Lantern                | 4      | 5 Emerald  |
 | Netherographer | Apprentice | Sell | Basalt                      | 1      | 1 Emerald  |
 | Netherographer | Apprentice | Sell | Nether Wart                 | 4      | 1 Emerald  |
