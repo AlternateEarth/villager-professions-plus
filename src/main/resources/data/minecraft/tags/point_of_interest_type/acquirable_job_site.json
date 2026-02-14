@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "villagerprofessionsplus:netherographerpoi"
+    "villagerprofessionsplus:netherographerpoi",
+    "villagerprofessionsplus:coppersmithpoi"
   ]
 }

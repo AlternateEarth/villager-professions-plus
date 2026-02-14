@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "GG",
+    "WW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "G": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "W": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "result": {
+    "item": "villagerprofessionsplus:coppersmith_table_block"
+  },
+  "show_notification": true
+}

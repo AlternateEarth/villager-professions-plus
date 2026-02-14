@@ -14,8 +14,13 @@ public class VillagerProfessionsPlusMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		LOGGER.info("Initializing Villager Professions Plus...");
+		LOGGER.info("Registering blocks...");
 		VPPBlocks.registerModBlocks();
+		LOGGER.info("Registering villagers...");
 		VPPVillagers.registerVillagers();
+		LOGGER.info("Registering trades...");
 		VPPJobs.registerTrades();
+		LOGGER.info("Finished initializing Villager Professions Plus");
 	}
 }

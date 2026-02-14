@@ -19,6 +19,9 @@ import net.minecraft.util.Identifier;
 public class VPPBlocks {
     public static final Block NETHEROGRAPHY_TABLE_BLOCK = registerBlock("netherography_table_block",
             new Block(FabricBlockSettings.copyOf(Blocks.CARTOGRAPHY_TABLE).sounds(BlockSoundGroup.GILDED_BLACKSTONE)));
+    
+    public static final Block COPPERSMITH_TABLE_BLOCK = registerBlock("coppersmith_table_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.CARTOGRAPHY_TABLE).sounds(BlockSoundGroup.COPPER)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -32,6 +35,7 @@ public class VPPBlocks {
 
     private static void addBlocksToItemGroup(FabricItemGroupEntries entries) {
         entries.add(NETHEROGRAPHY_TABLE_BLOCK);
+        entries.add(COPPERSMITH_TABLE_BLOCK);
     }
 
     public static void registerModBlocks() {

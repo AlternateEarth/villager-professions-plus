@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "villagerprofessionsplus:block/coppersmith_table_bottom",
+    "east": "villagerprofessionsplus:block/coppersmith_table_side3",
+    "north": "villagerprofessionsplus:block/coppersmith_table_side3",
+    "particle": "villagerprofessionsplus:block/coppersmith_table_side3",
+    "south": "villagerprofessionsplus:block/coppersmith_table_side1",
+    "up": "villagerprofessionsplus:block/coppersmith_table_top",
+    "west": "villagerprofessionsplus:block/coppersmith_table_side2"
+  }
+}
+
