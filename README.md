@@ -25,7 +25,7 @@ The Coppersmith is a profession that works with copper in all its forms. They tr
 
 ## Job Site Blocks
 
-A villager takes a profession by claiming its job site block. Both blocks look like a cartography table, are found in the Functional Blocks creative tab, and share the same crafting layout (paper on top, the middle row, then planks on the bottom).
+Both blocks look similar to a cartography table, are found in the Functional Blocks creative tab, and share the same crafting layout (paper on top, the middle row, then planks on the bottom).
 
 | Block               | Profession     | Top row (2) | Middle row (2)                                                        | Bottom row (2)               | Mined with |
 | ------------------- | -------------- | ----------- | --------------------------------------------------------------------- | ---------------------------- | ---------- |
