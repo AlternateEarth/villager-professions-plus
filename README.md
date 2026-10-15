@@ -23,6 +23,15 @@ The Netherographer is a profession that specializes in the study of the Nether. 
 
 The Coppersmith is a profession that works with copper in all its forms. They travel through mines and dive deep into caverns and so will be interested in buying supplies and selling their finds.
 
+## Job Site Blocks
+
+A villager takes a profession by claiming its job site block. Both blocks look like a cartography table, are found in the Functional Blocks creative tab, and share the same crafting layout (paper on top, the middle row, then planks on the bottom).
+
+| Block               | Profession     | Top row (2) | Middle row (2)                                                        | Bottom row (2)               | Mined with |
+| ------------------- | -------------- | ----------- | --------------------------------------------------------------------- | ---------------------------- | ---------- |
+| Netherography Table | Netherographer | Paper       | Gilded Blackstone                                                     | Warped Planks                | Pickaxe    |
+| Coppersmith Table   | Coppersmith    | Paper       | Any copper block (copper, exposed, weathered, oxidized, waxed or not) | Any planks                   | Axe        |
+
 ## Trades
 
 Anything listed as buy means that the villager will buy that item from the player. Anything listed as sell means that the villager will sell that item to the player.
@@ -41,7 +50,7 @@ Anything listed as buy means that the villager will buy that item from the playe
 | Netherographer | Apprentice | Buy  | Soul Lantern                | 4      | 5 Emerald  |
 | Netherographer | Apprentice | Sell | Basalt                      | 1      | 1 Emerald  |
 | Netherographer | Apprentice | Sell | Nether Wart                 | 4      | 1 Emerald  |
-| Netherographer | Apprentice | Sell | Twisted Vines               | 4      | 1 Emerald  |
+| Netherographer | Apprentice | Sell | Twisting Vines               | 4      | 1 Emerald  |
 | Netherographer | Apprentice | Sell | Weeping Vines               | 4      | 1 Emerald  |
 | Netherographer | Journeyman | Buy  | Soul Campfire               | 4      | 6 Emerald  |
 | Netherographer | Journeyman | Buy  | Diamond Pickaxe             | 1      | 10 Emerald |
@@ -79,6 +88,12 @@ Anything listed as buy means that the villager will buy that item from the playe
 | Coppersmith    | Master     | Sell | Waxed Weathered Copper Block| 1      | 4 Emerald  |
 | Coppersmith    | Master     | Sell | Waxed Oxidized Copper Block | 1      | 4 Emerald  |
 | Coppersmith    | Master     | Sell | Waxed Exposed Copper Block  | 1      | 4 Emerald  |
+
+## Requirements
+
+- Minecraft 1.20.1
+- Fabric Loader 0.16.5 or later
+- [Fabric API](https://modrinth.com/mod/fabric-api)
 
 ## Updating the mod
 

@@ -3,18 +3,18 @@
   "category": "misc",
   "pattern": [
     "##",
-    "GG",
+    "CC",
     "WW"
   ],
   "key": {
     "#": {
       "item": "minecraft:paper"
     },
-    "G": {
-      "item": "minecraft:gilded_blackstone"
+    "C": {
+      "tag": "villagerprofessionsplus:copper_blocks"
     },
     "W": {
-      "item": "minecraft:warped_planks"
+      "tag": "minecraft:planks"
     }
   },
   "result": {
